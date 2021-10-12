@@ -1,0 +1,35 @@
+:root {
+  color-scheme: dark;
+  --font-weight-bold: 500;
+  --font-weight-medium: 400;
+  --font-weight-light: 300;
+  --font-family: "Wotfard", Futura, -apple-system, sans-serif;
+  --font-family-mono: "League Mono", "Fira Mono", monospace;
+  --color-text: hsl(0deg, 0%, 100%);
+  --color-background: hsl(274deg 16% 6%);
+  --color-blurred-background: hsla(210deg, 30%, 8%, 0.85);
+  --color-primary: hsl(333deg, 100%, 52%);
+  --color-secondary: hsl(230deg, 92%, 63%);
+  --color-tertiary: hsl(53deg, 100%, 50%);
+  --color-decorative: hsl(200deg, 50%, 60%);
+  --color-muted: hsl(210deg, 38%, 15%);
+  --color-error: hsl(340deg, 95%, 60%);
+  --color-error-background: hsla(340deg, 95%, 43%, 0.1);
+  --color-success: hsl(160deg, 100%, 40%);
+  --color-success-background: hsla(160deg, 100%, 40%, 0.1);
+  --color-alert: hsl(30deg, 100%, 50%);
+  --color-alert-background: hsla(38deg, 100%, 50%, 0.1);
+  --color-gray-300: hsl(223deg, 5%, 30%);
+  --color-gray-500: hsl(223deg, 5%, 50%);
+  --color-gray-700: hsl(223deg, 5%, 60%);
+  --color-buy: hsl(333deg 100% 45%);
+  --color-buy-shadow: hsl(333deg 100% 40%);
+  --selection-background-color: hsl(0deg 0% 100% / 1);
+  --selection-text-color: hsl(0deg 0% 0% / 1);
+  --gradient-buy: linear-gradient(
+    245deg,
+    hsl(333deg 100% 52%) 5%,
+    hsl(333deg 100% 40%) 90%
+  );
+  --reach-dialog: 1;
+}

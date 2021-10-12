@@ -1,11 +1,4 @@
-.flex {
-  display: flex;
-}
-
-.jcc {
-  justify-content: center;
-}
-
-.aic {
-  align-items: center;
-}
+@import './normalize.css';
+@import './theme.css';
+@import './base.css';
+@import './utility.css';

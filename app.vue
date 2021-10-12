@@ -3,13 +3,15 @@
   <TheHeader />
   <body>
     <TheHero />
+    <TheIntro />
+    <HighlightedTitle />
+    <TrustedBrands />
+    <SingleTestimonial />
   </body>
 </div>
 </template>
 
 <script setup>
-import TheHeader from "@/components/TheHeader.vue";
-
 useMeta({
   title: "CSS for JS Clone",
   link: [
@@ -30,4 +32,10 @@ useMeta({
 });
 </script>
 
+<style>
+@import '~/assets/css/global.css';
 
+body {
+  background-color: var(--color-background);
+}
+</style>
