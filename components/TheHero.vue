@@ -1,21 +1,22 @@
 <template>
   <div class="flex jcc aic flex-col">
-    <div class="spacer"></div>
+    <div class="spacer-24"></div>
     <h1 class="hero-title">Stop wrestling with CSS.</h1>
-    <div class="spacer"></div>
+    <div class="spacer-24"></div>
     <h2
       class="hero-subtitle"
     >The all-new interactive learning experience designed to help JavaScript developers become confident with CSS.</h2>
-    <div class="spacer-big"></div>
+    <div class="spacer-72"></div>
     <div class="flex jcc aic avatar">
       <img
         src="~/assets/images/me-avatar.jpg"
         alt="A very handsome fella with swoopy hair"
-        class="avatar__img"
+        class="avatar-img"
       />
-      <span>
+      <div class="spacer-16"></div>
+      <span class="author">
         Taught by
-        <span>Luis Martinez</span>
+        <span class="author-name">Luis Martinez</span>
       </span>
     </div>
   </div>
@@ -49,8 +50,16 @@
 }
 
 .avatar {
-  &__img {
+  &-img {
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
+  }
+  & .author {
+    color: var(--color-gray-700);
+  }
+  & .author-name {
+    color: white;
   }
 }
 </style>

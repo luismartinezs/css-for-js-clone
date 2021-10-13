@@ -32,10 +32,17 @@ useMeta({
 });
 </script>
 
-<style>
-@import '~/assets/css/global.css';
+<style lang="scss">
+@import '~/assets/css/normalize.css';
+@import '~/assets/css/theme.css';
+@import '~/assets/css/base.css';
+@import '~/assets/css/utility.css';
+@import '~/assets/css/components.css';
 
 body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  height: 100%;
   background-color: var(--color-background);
 }
 </style>
